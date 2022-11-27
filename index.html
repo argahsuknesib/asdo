@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASDO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Aggregating Stream Data Ontology</h2>
+    <h4>
+      Current Version:
+      <a href="https://argahsuknesib.github.io/asdo/"
+        >https://argahsuknesib.github.io/asdo/</a
+      >
+    </h4>
+    <h4>Ontology in development.</h4>
+    <h4>Abstract</h4>
+    <p>
+      Aggregating Stream Data is important for streams generated from
+      distributed data sources.
+    </p>
+    <h4>Introduction</h4>
+  </body>
+  <p>
+    In a decentralised environment, aggregation data neccesary for summarising
+    the generated data streams. There is a need for an ontology to describe the
+    services which are built upon the data sources or the sensors the stream is
+    generated from. In this ontology, we extend the
+    <a href="http://iot.ee.surrey.ac.uk/citypulse/ontologies/sao/sao"
+      >Stream Annotation Ontology</a
+    >
+    to include the services built on top to do aggregation of streams.
+  </p>
+<h4>Classes </h4>
+  <p>
+    <ul>
+      <li>AggregatorService
+        <ul><li>Access Policies</li>
+        <li>AggregationFunctions<ul>
+          <li>Sum</li>
+          <li>Average</li>
+          <li>Count</li>
+          <li>Maximum</li>
+          <li>Minimum</li>
+          <li>Mode</li>
+          <li>NanMean</li>
+          <li>Range</li>
+          <li>Stddev</li>
+        </ul></li><li>WindowType</li>
+      <li>Window</li>
+    <li>WindowSlide</li>
+    </ul>
+      </li>
+      <li>StreamSources</li>
+    </ul>
+  </p>
+
+  <h4>Properties</h4>
+  <p>
+    No properties yet.
+  </p>
+
+  <h4>Contributing</h4>
+  <li>Please feel free to contribute at <a href="https://github.com/argahsuknesib/asdo">Github</a></li>
+
+  <footer class="footer">
+    <hr />
+    <div class="copyright-container">
+      <div class="copyright"><br />Content
+        is available under
+        <a
+          rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/"
+        >
+          CC-BY-SA 4.0</a
+        >
+        unless otherwise noted
+      </div>
+      <div class="cc-badge">
+        <a
+          rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/"
+        >
+          <img
+            alt="Creative Commons License"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="generated">
+      Last Updated : 27 November 2022.
+    </div>
+  </footer>
+</html>

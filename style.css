@@ -1,0 +1,17 @@
+body {
+    max-width: 640px;
+    margin: auto;
+    padding: 10px;
+    border-top: 5px solid lightsteelblue;
+    font-size: 13px;
+    font-family: "Cascadia Code", serif;
+    font-weight: 380;
+}
+
+.info {
+    color: slategray;
+}
+
+img.inline {
+    max-width: 1em;
+}

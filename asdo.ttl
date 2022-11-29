@@ -18,6 +18,10 @@
                 rdfs:subClassOf :AggregatorService .
 
 
+###  https://argahsuknesib.github.io/asdo/Aggregation
+:Aggregation rdf:type owl:Class .
+
+
 ###  https://argahsuknesib.github.io/asdo/AggregationFunction
 :AggregationFunction rdf:type owl:Class ;
                      rdfs:subClassOf :AggregatorService .

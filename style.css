@@ -4,7 +4,7 @@ body {
     padding: 10px;
     border-top: 5px solid lightsteelblue;
     font-size: 13px;
-    font-family: "Cascadia Code", serif;
+    font-family: monospace;
     font-weight: 380;
 }
 
